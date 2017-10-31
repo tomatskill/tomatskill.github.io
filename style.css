@@ -411,3 +411,15 @@ color: #777;
 	color: #555;
 	margin-top:  13px;
 }
+
+ .nav  a:after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    background-color: #ffeb3b;
+    transition: width .3s ease-in-out;
+}
+.nav a:hover:after {
+    width: 100%;
+}
